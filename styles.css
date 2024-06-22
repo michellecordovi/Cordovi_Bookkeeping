@@ -4,6 +4,10 @@
       box-sizing: border-box;
 }
 
+html {
+      font-size: 16px;
+}
+
 body{
       font-family: Lora, Georgia, 'Times New Roman', Times, serif;
       color: #272343;
