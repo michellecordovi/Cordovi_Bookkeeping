@@ -1,0 +1,85 @@
+*{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
+
+body{
+      font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+      color: #272343;
+}
+
+h1{
+      font-size: 3.5rem;
+      letter-spacing: 1rem;
+      font-weight: 400;
+      text-transform: uppercase;
+}
+
+/* NAVIGVATION BAR */
+nav {
+      padding: 1.5rem 0rem;
+}
+
+.desktop-nav ul {
+      list-style-type: none;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      justify-items: center;
+      align-items: center;
+}
+
+nav li {
+      font-size: 1.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+}
+
+nav li a{
+      text-decoration: inherit;
+      color: inherit;
+}
+
+/* BANNER */
+#banner{
+      width: 80%;
+      background-image: url(./images/financeTrackerNotebook.jpg);
+      background-size: cover;
+      background-position: bottom;
+      margin: 1rem auto;
+      padding: 5rem 3rem;
+      position: relative;
+      z-index: 0;
+}
+
+#banner-overlay{
+      width: 100%;
+      height: 100%;
+      background-color: #e3f6f5d0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+}
+
+.banner-text{
+      position: relative;
+      z-index: 2;
+      text-align: center;
+}
+
+#banner p{
+      font-size: 1.25rem;
+      margin: 1.5rem 0rem;
+}
+
+#banner button{
+      width: 10rem;
+      height: 2.5rem;
+      font-family: inherit;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      background-color: white;
+      border-radius: 0.2rem;
+      border: 1px solid #272343;
+}
