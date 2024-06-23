@@ -114,7 +114,7 @@ nav li a{
       grid-template-columns: 1fr 1fr 1fr;
       justify-items: center;
       align-items: center;
-      gap: 2rem;
+      gap: 3rem;
 }
 
 .service {
@@ -122,13 +122,19 @@ nav li a{
       display: grid;
       align-items: center;
       height: 15rem;
-      width: 100%;
+      width: 25rem;
       text-align: center;
       line-height: 2.5rem;
       position: relative;
       border-radius: 1rem;
       background-image: url(./images/financeTrackerNotebook.jpg);
       background-size: cover;
+}
+
+.service:hover {
+      height: 14rem;
+      width: 23rem;
+      transition: all 0.5s;
 }
 
 .service-overlay{
